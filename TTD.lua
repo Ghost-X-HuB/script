@@ -34,29 +34,11 @@ LobbyTab:Toggle({
 })
 
 ESPTab:Toggle({
-	Title = "ESP Players",
+	Title = "Macro Record",
 	Desc = "",
 	Value = false,
 	Callback = function(state)
 		-- ใส่โค้ด ESP Players ที่นี่
-	end
-})
-
-ESPTab:Toggle({
-	Title = "ESP Exit",
-	Desc = "",
-	Value = false,
-	Callback = function(state)
-		-- ใส่โค้ด ESP Exit ที่นี่
-	end
-})
-
-ESPTab:Toggle({
-	Title = "ESP Crates",
-	Desc = "",
-	Value = false,
-	Callback = function(state)
-		-- ใส่โค้ด ESP Crates ที่นี่
 	end
 })
 
