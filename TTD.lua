@@ -16,11 +16,6 @@ local Window = WindUI:CreateWindow({
 	BackgroundImageTransparency = 0.42,
 	HideSearchBar = true,
 	ScrollBarEnabled = false,
-	User = {
-		Enabled = false,
-		Anonymous = false,
-		Callback = function() end
-	}
 })
 
 -- Tabs
