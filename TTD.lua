@@ -29,7 +29,16 @@ LobbyTab:Toggle({
 	Desc = "",
 	Value = false,
 	Callback = function(state)
-		-- ใส่โค้ด Aimbot ที่นี่
+		-- ใส่โค้ด
+	end
+})
+
+MacroTab:Toggle({
+	Title = "Create Macro File",
+	Desc = "",
+	Value = false,
+	Callback = function(state)
+		-- ใส่โค้ด 
 	end
 })
 
@@ -38,7 +47,7 @@ MacroTab:Toggle({
 	Desc = "",
 	Value = false,
 	Callback = function(state)
-		-- ใส่โค้ด ESP Players ที่นี่
+		-- 
 	end
 })
 
@@ -47,6 +56,6 @@ VisualsTab:Toggle({
 	Desc = "",
 	Value = false,
 	Callback = function(state)
-		-- ใส่โค้ด Night Vision ที่นี่
+		-- ใส่โค้ด
 	end
 })
