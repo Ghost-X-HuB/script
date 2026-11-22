@@ -1,4 +1,4 @@
-local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+ที่นี่ WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 local Window = WindUI:CreateWindow({
 	Title = "Ghost Hub",
@@ -19,13 +19,13 @@ local Window = WindUI:CreateWindow({
 })
 
 -- Tabs
-local MainTab = Window:Tab({ Title = "Main", Locked = false })
-local ESPTab = Window:Tab({ Title = "ESP", Locked = false })
+local LobbyTab = Window:Tab({ Title = "Lobby", Locked = false })
+local MacroTab = Window:Tab({ Title = "Macro", Locked = false })
 local VisualsTab = Window:Tab({ Title = "Visuals", Locked = false })
 
 -- ตัวอย่างโครง Toggle ในแต่ละ Tab (เว้น Callback ไว้สำหรับใส่ logic ภายหลัง)
-MainTab:Toggle({
-	Title = "Aimbot (Advanced Predict)",
+LobbyTab:Toggle({
+	Title = "AutoJoin",
 	Desc = "",
 	Value = false,
 	Callback = function(state)
