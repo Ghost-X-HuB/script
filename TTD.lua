@@ -33,7 +33,7 @@ LobbyTab:Toggle({
 	end
 })
 
-ESPTab:Toggle({
+MacroTab:Toggle({
 	Title = "Macro Record",
 	Desc = "",
 	Value = false,
