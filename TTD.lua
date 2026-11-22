@@ -19,9 +19,10 @@ local Window = WindUI:CreateWindow({
 	User = { Enabled = true, Anonymous = true, Callback = function() end }
 })
 
-local MainTab = Window:Tab({
-	Title = "Main",
-	Icon = "house"
+local Tab = Window:Tab({
+    Title = "Macro",
+    Icon = "bird", 
+    Locked = false,
 })
 
 MainTab:Toggle({
